@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: solid 2px #ccc;
+}
+header {
+    border-bottom: solid 10px #fff;    
+    position: relative;
+    height: 300px;
+    background-image: url('../images/background01.jpg');
+}
+.textHeader {
+    text-align: center;
+    color: #fff;
+}
+.textHeader h3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.textHeader h1 {
+    padding: 10px;
+    margin: 30px;
+}
+header img {
+    padding: 5px;
+    background-color: #fff;
+    left: 44%;
+    top: 230px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+.mainContent {
+    padding: 200px;
+}
+.content {
+    color: #fff;
+    background-color: black;
+}
+.info {
+
+}
+.info h3{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: solid 2px #ccc;
+}
+.info p{
+    margin: 10px;
+    padding: 10px;
+}
+.albums {
+    display: flex;
+    justify-content: space-around;
+}.albums img {
+    margin: 20px;
+}
+.albums .left {
+
+}
